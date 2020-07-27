@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech</title>
+    <link rel="stylesheet" href="https://cdn.snowflakedev.xyz/css/bootstrap.min.css">
+    <script src="https://cdn.snowflakedev.xyz/js/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+    <style>
+        body {
+            background-color: #13151f;
+            color: #FFFFFF;
+        }
+
+        .dark {
+            background-color: #252527 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-5 bg-transparent dark">
+            <h1 class="text-white">Write something</h1>
+            <div class="mt-2">
+                <textarea id="input" class="form-control" rows="3" placeholder="Write something here..."></textarea>
+            </div>
+            <button class="btn btn-success mt-3" style="width: 100%;" onclick="toSpeech()">Text to speech</button>
+        </div>
+    </div>
+</body>
+</html>

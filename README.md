@@ -2,4 +2,4 @@
 Simple text-to-speech
 
 # Live Preview
-**[https://me.snowflakedev.xyz/text-to-speech/](https://me.snowflakedev.xyz/text-to-speech/ "Click Here For Preview")**
+**[https://simple-tts.netlify.app](https://simple-tts.netlify.app "Click Here For Preview")**
